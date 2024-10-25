@@ -1,0 +1,103 @@
+body{
+    background-color: #f1fbff;
+}
+.round-search{
+    border-radius: 25px;
+}
+:root{
+    --colorOne: #19456b ;
+    --colorTwo:#16c79a ;
+}
+
+.navbar{
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-brand{
+  color: var(--colorTwo);
+}
+.navbar .container a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar .nav-link {
+    color: var(--colorTwo) !important; 
+    margin-left: 40px;
+  }
+
+  .navbar .nav-link:hover {
+    color: #6699cc !important;
+    transition: color 0.3s ease-in;
+  }
+*{
+    font-family: montserrat;
+}
+body{
+    background: f1fbff;
+}
+.carousel-inner{
+    margin-top: 63px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.carousel-item{
+    height: 50vh;
+    min-height: 300px;
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 100%; 
+    width: 100%; 
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+    color: white; /* White text color */
+    padding: 10px; /* Padding around the text */
+  }
+
+.right-content{
+    margin-top: 63px;
+}
+.campaign-funds {
+    position: fixed; /* Fix the position */
+}
+.right-content {
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: left; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  }
+  
+  .right-content h1 {
+    color: var(--colorTwo);
+    font-size: 2.5rem; 
+    margin-bottom: 15px;
+  }
+  
+  .right-content h5 {
+    font-size: 1.5rem; 
+    margin-bottom: 15px; 
+  }
+  
+  .right-content p {
+    font-size: 1rem; 
+  }
+  .progress-text {
+    color: var(--colorTwo); 
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .carousel-text h2{
+    color: var(--colorOne);
+  }
+  .img-descript{
+    width: 500px;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
